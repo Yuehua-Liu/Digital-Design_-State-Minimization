@@ -1,1 +1,1 @@
-# Digital-Design_-State-Minimization
+# Digital-Design_State-Minimization
