@@ -116,7 +116,8 @@ for state_group in minimized_form:
     temp = []
     x_digit = int(log2(len(state_group[1])))
     for i in range(x_digit+1):
-        temp = [str(int(str(i), 2)), state_group[0], state_group[1][i], state_group[2][i]]
+        # print(str(bin(i)[2:].zfill(x_digit)))
+        temp = [str(bin(i)[2:].zfill(x_digit)), state_group[0], state_group[1][i], state_group[2][i]]
         minimized_list.append(temp)
 
 # 計算Output後各屬性質數量
